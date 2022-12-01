@@ -1,0 +1,50 @@
+export type TypographyVariant =
+	| "h1"
+	| "h2"
+	| "h3"
+	| "h4"
+	| "h5"
+	| "h6"
+	| "p"
+	| "a"
+	| "caption";
+export type Color =
+	| "inherit"
+	| "primary"
+	| "secondary"
+	| "success"
+	| "error"
+	| "info"
+	| "warning"
+	| string;
+export type Size =
+	| "xs"
+	| "sm"
+	| "base"
+	| "lg"
+	| "xl"
+	| "2xl"
+	| "3xl"
+	| "4xl"
+	| "5xl"
+	| "6xl"
+	| "7xl"
+	| "8xl"
+	| "9xl";
+export type Align = "left" | "center" | "right";
+export type Justify =
+	| "start"
+	| "end"
+	| "center"
+	| "between"
+	| "around"
+	| "evenly"
+	| "justify-items-start"
+	| "justify-items-end"
+	| "justify-items-center"
+	| "justify-items-stretch"
+	| "justify-self-auto"
+	| "justify-self-start"
+	| "justify-self-end"
+	| "justify-self-center"
+	| "justify-self-stretch";
